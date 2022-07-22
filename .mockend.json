@@ -10,7 +10,7 @@
 			"string": {}
 		},
 		"email": {
-			"regexp": "[a-zA-Z]{12}@[a-zA-Z]{5}\\.([a-zA-Z]{2,5})$"
+			"string": ["webbeukers@swoove.nl"]
 		},
 		"gender": {
 			"string": ["male", "female"]
@@ -29,6 +29,44 @@
 		},
 		"profile_picture": {
 			"regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+		},
+		"expertise_tags": {
+			"tag1": {
+				"string": ["value1"]
+			},
+			"tag2": {
+				"string": ["value2"]
+			}
+		},
+		"billing": {
+			"card_details": {
+				"bank_number": {
+					"string": ["1111111112345"]
+				},
+				"name_holder": {
+					"string": ["S. Jobs"]
+				},
+				"method": {
+					"string": ["Bank transfer"]
+				}
+			},
+			"billing_details": {
+				"street_address": {
+					"string": ["Anthonie Fokkersstraat"]
+				},
+				"house_number": {
+					"string": ["61-J"]
+				},
+				"zip": {
+					"string": ["3772MP"]
+				},
+				"city": {
+					"string": ["Barneveld"]
+				},
+				"country": {
+					"string": ["Netherlands"]
+				}
+			}
 		}
 	}
 }
