@@ -28,15 +28,15 @@
 			"string": ["creator"]
 		},
 		"profile_picture": {
-			"regexp": "https://i\\.pravatar\\.cc/150\\?[0-9]{5}"
+			"regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
 		}
 	},
 	"Tag": {
 		"name": {
-			"regexp": "tagu=[0-9]{1}"
+			"regexp": "tag[0-9]{1}"
 		},
 		"value": {
-			"regexp": "valueu=[0-9]{1}"
+			"regexp": "value[0-9]{1}"
 		}
 	}
 }
