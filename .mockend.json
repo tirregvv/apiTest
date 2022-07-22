@@ -29,12 +29,12 @@
 		},
 		"profile_picture": {
 			"regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+		},
+		"expertise_tag": {
+			"belongsTo": "Tag"
 		}
 	},
 	"Tag": {
-		"expertise_tag": {
-			"belongsTo": "Creator"
-		},
 		"name": {
 			"regexp": "tag[0-9]{1}"
 		},
