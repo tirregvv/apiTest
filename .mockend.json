@@ -1,16 +1,42 @@
 {
-	"Creator": {
-		"first_name": {
-			"string": "Gerrit"
+	"User": {
+		"name": {
+			"string": {}
 		},
-		"last_name": {
-			"string": "de Beuker"
+		"avatarUrl": {
+			"regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
 		},
-		"display_name": {
-			"string": "tirregvv"
+		"statusMessage": {
+			"string": ["working from home", "watching Netflix"]
 		},
 		"email": {
-			"string": "gerrit@webbeukers.nl"
+			"regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+		},
+		"color": {
+			"regexp": "#[0-9A-F]{6}"
+		},
+		"age": {
+			"int": {
+				"min": 21,
+				"max": 100
+			}
+		},
+		"isPublic": {
+			"boolean": {}
+		}
+	},
+	"Creator": {
+		"first_name": {
+			"loremWord": {}
+		},
+		"last_name": {
+			"loremWords": { "minLength": 2, "maxLength": 3 }
+		},
+		"display_name": {
+			"string": {}
+		},
+		"email": {
+			"regexp": "[0-9A-F]{6}@[0-9A-F]{8}.com"
 		},
 		"gender": {
 			"string": ["male", "female"]
@@ -22,10 +48,10 @@
 			}
 		},
 		"status": {
-			"string": "active"
+			"string": ["active"]
 		},
 		"role": {
-			"string": "creator"
+			"string": ["creator"]
 		},
 		"profile_picture": {
 			"regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
