@@ -31,7 +31,13 @@
 			"regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
 		},
 		"expertise_tag": {
-			"hasMany": "Tag"
+			"string": [
+				{
+					"Tag": {
+						"loremWord": {}
+					}
+				}
+			]
 		}
 	},
 	"Tag": {
