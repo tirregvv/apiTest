@@ -10,7 +10,7 @@
 			"string": {}
 		},
 		"email": {
-			"regexp": "[a-zA-Z0-9][a-zA-Z0-9_.]+@[a-zA-Z0-9_]+\\.(com|[a-zA-Z]{2})$"
+			"regexp": "^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$"
 		},
 		"gender": {
 			"string": ["male", "female"]
