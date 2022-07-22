@@ -32,9 +32,9 @@
 		}
 	},
 	"Tag": {
-        "expertise_tag" {
-            "belongsTo": "Creator"
-        },
+		"expertise_tag": {
+			"belongsTo": "Creator"
+		},
 		"name": {
 			"regexp": "tag[0-9]{1}"
 		},
