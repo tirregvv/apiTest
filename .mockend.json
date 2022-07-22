@@ -32,36 +32,6 @@
 		},
 		"expertise_tags": {
 			"hasMany": "ExpertiseTag"
-		},
-		"billing": {
-			"card_details": {
-				"bank_number": {
-					"string": ["1111111112345"]
-				},
-				"name_holder": {
-					"string": ["S. Jobs"]
-				},
-				"method": {
-					"string": ["Bank transfer"]
-				}
-			},
-			"billing_details": {
-				"street_address": {
-					"string": ["Anthonie Fokkersstraat"]
-				},
-				"house_number": {
-					"string": ["61-J"]
-				},
-				"zip": {
-					"string": ["3772MP"]
-				},
-				"city": {
-					"string": ["Barneveld"]
-				},
-				"country": {
-					"string": ["Netherlands"]
-				}
-			}
 		}
 	},
 	"ExpertiseTag": {
